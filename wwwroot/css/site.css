@@ -1,0 +1,75 @@
+html {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    width:100%;
+    
+}
+
+.backgroud-jogos {
+    /*background-image: url('../Imagem/backgraud-jogos.jpg');*/
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+   /* background-size:cover;*/
+    background-position: bottom;
+    background-color:azure;
+}
+
+.h1-list-pag{
+  margin: 40px 230px 40px 230px;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(111, 66, 193);
+  font-family:'Times New Roman', Times, serif;
+  font-size: 60px;
+  border-bottom:solid;
+  color: aqua;
+  border-radius: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.botao-sunmit-jogo{
+  border: solid;
+  color: aquamarine;
+  float: right;
+  width: 90px;
+}
+
+.botao-sunmit-jogo:hover{
+  background-color: rgb(248, 67, 164);
+}
+
+/*----------------------------ligin-------------------*/
+
+.login-form {
+    background-color: rgb(111, 66, 193);
+    padding: 50px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius:10px;
+    border-bottom:solid;
+
+}
+
+.foto-login{
+    margin: 0px 0px 0px 65px;
+}

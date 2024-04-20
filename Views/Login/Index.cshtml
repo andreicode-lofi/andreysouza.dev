@@ -1,0 +1,28 @@
+﻿@model LoginModel;
+@{
+    Layout = "_LayoutDesLogado";
+    ViewData["Title"] = "Login";
+}
+<div class="row">
+    <form asp-controller="Login" asp-action="GetLogin" method="post" class="login-form">
+
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <img src="~/Imagem/login-index.png" class="foto-login" alt="login"/>
+        <div>
+            <label class="form-label mt-4">Email:</label>
+            <input asp-for="Login" asp-fo type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <span asp-validation-for="Login"></span>
+            @Html.ValidationMessageFor(model => model.Login, "", new {@class = "text-danger"})
+        </div>
+        <div>
+            <label class="form-label mt-4">Password:</label>
+            <input asp-for="Senha" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="off">
+            <span asp-validation-for="Senha"></span>
+            @Html.ValidationMessageFor(model => model.Senha, "", new { @class = "text-danger" })
+        </div>
+        <br />
+        <button type="submit" class="btn btn-outline-primary botao-sunmit-jogo">Entrar</button>
+    </form>
+</div>

@@ -1,0 +1,123 @@
+.curriculo-body {
+    width: 100%;
+    background-color: rgb(111, 66, 193);
+    background-image: url('../Imagem/bg-branco.png');
+}
+
+.container-pai {
+    width: 100%;
+    background-image: url('../Imagem/bg-branco.png');
+}
+
+.curriculo-header {
+    background-image: url('../Imagem/bg-curriculo.jpg');
+    background-size: cover;
+    background-position: center right;
+    height: 560px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 1px;
+    
+}
+
+.curriculo-header-ul {
+    text-align: right;
+    text-decoration: none;
+    margin:30px 10px 0px 0px;
+   
+}
+
+.curriculo-header-ul li{
+   display:inline;
+}
+
+.link-img{
+    background-color: rgb(111, 66, 193);
+    border-radius: 55%;
+    
+}
+
+.link-img:hover {
+    background-color: cyan; 
+}
+
+.curriculo-h1{
+    background-color:rgba(0, 0, 0, 0.9);
+    color:rgb(71, 221, 231);
+    font-size:60px;
+    text-decoration:none;
+    border-bottom:solid;
+    margin-top: 120px;
+    padding:15px;
+    text-align: center;
+}
+
+.paragrafo-h1{
+    text-align: center;
+    color: rgb(71, 221, 231);
+}
+
+/*----------------------------------------------------*/
+.container-conteudo {
+    background-color: rebeccapurple;
+    margin: 70px 20px 20px 20px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 830px;
+    /*box-shadow: 0 16px 14px rgba(0, 0, 0, 0.7);*/
+    box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.4), 0 10px 14px rgba(0, 0, 0, 0.4);
+}
+
+.curriculo-h3 {
+    background-color: blueviolet;
+    padding: 10px;
+    border-bottom: solid;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.subtitulo-conteudo {
+    color:white;
+    padding:8px;
+    
+}
+
+.curriculo-p {
+    padding: 10px;
+    line-height: 1.6;
+    font-size: 19px;
+    max-width: 800px; /* Ajuste conforme necess�rio */
+    margin: 0 auto; /* Centraliza o texto */
+    margin-bottom: 20px;
+    word-spacing: -1px;
+    font-family: Arial, sans-serif;
+}
+
+.curriculo-a{
+    background-color:blueviolet;
+    padding:5px 5px 5px 5px;
+    margin: 15px ;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.lista-curriculo{
+    list-style:none;
+    font-size: 19px;
+}
+
+.conteudo-img-esquerda{
+    float:left;
+    padding:10px;
+}
+
+
+
+/*----------------------FLEX-BOX------------------------------*/
+
+#container-flexbox-1{
+    display: flex;
+    
+}
