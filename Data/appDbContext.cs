@@ -12,7 +12,7 @@ public class appDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(connectionString:"Data Source=ANDREY;Initial Catalog=JogosFilmes;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+        optionsBuilder.UseSqlServer(connectionString:"Server=tcp:jogosfilmes.database.windows.net,1433;Initial Catalog=jogosfilmes;Persist Security Info=False;User ID=jogosfilmes;Password=AN988687098dc;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         base.OnConfiguring(optionsBuilder);
     }
 
