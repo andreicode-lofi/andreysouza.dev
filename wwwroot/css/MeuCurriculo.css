@@ -1,4 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+
+    overflow-x:hidden;
+    
+}
 .curriculo-body {
+    
+
     width: 100%;
     background-color: rgb(111, 66, 193);
     background-image: url('../Imagem/bg-branco.png');
@@ -6,6 +18,7 @@
 
 .container-pai {
     width: 100%;
+    max-width: 100%;
     background-image: url('../Imagem/bg-branco.png');
 }
 
@@ -117,7 +130,24 @@
 
 /*----------------------FLEX-BOX------------------------------*/
 
-#container-flexbox-1{
+#container-flexbox-1 {
     display: flex;
-    
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+@media (width < 768px ){
+
+    #container-flexbox-1 {
+       
+        flex-wrap: wrap;
+    }
+    .curriculo-h1{
+        font-size:48px;
+    }
+}
+
+@media (width < 537px ) {
 }
